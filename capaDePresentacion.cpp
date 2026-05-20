@@ -1,7 +1,7 @@
 #include "capaDePresentacion.h"
 #include <iostream>
 #include <string>
-#include <windows.h> // Para la función Sleep()
+#include <windows.h> 
 
 using namespace std;
 
@@ -76,11 +76,14 @@ void capaDePresentacion::iniciarJuego() {
         int eleccionColor = 1; // Por defecto: Humano es Negras (1)
 
         if (opcion == 2) {
+            do{
             cout << "\n--- Selecciona tu bando ---\n";
             cout << "1. Jugar con Negras (N) - Mueves primero\n";
             cout << "2. Jugar con Blancas (B) - PC mueve primero\n";
             cout << "Elige una opcion: ";
             cin >> eleccionColor;
+            if(eleccionColor < 1 || eleccionColor > 2) cout << "\nEntrada Invalida\n";
+            }while(eleccionColor < 1 || eleccionColor > 2);
         }
 
         if (opcion == 4) {
