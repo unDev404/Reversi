@@ -7,3 +7,4 @@ también en mejorar la estructura grafica: mantener pulcritud en el tablero y qu
 
 por ultimo, de momento. también habría que modificar el guardado de archivos dado que no funciona. con el mismo, agregar una opción de historial de partida
 
+NOTA IMPORTANTE: En esta Rama hay que tratar de colocar todo el codigo en los 3 modulos mencionados
